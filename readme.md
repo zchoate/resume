@@ -4,10 +4,10 @@ GitHub: [https://github.com/zchoate](https://github.com/zchoate)
 
 # Education and Certifications
 
-**Western Governors University**                                Feb. 2014 - Dec. 2016 <br>
+**Western Governors University** Dec. 2016 <br>
    Bachelor of Science, Information Technology with emphasis in Network Administration
 
-[**Microsoft Certified: Azure Administator Associate**](https://www.credly.com/badges/f0113f92-2077-4b39-ad4c-3ae4a5ab6964/public_url)                      Dec. 2018 - Dec. 2023
+[**Microsoft Certified: Azure Administator Associate**](https://www.credly.com/badges/f0113f92-2077-4b39-ad4c-3ae4a5ab6964/public_url) Dec. 2018 - Dec. 2023
 
 [**Microsoft Certified: Azure Solutions Architect Expert**](https://www.credly.com/badges/2e7d531b-d75f-4596-9091-30a18940ede7/public_url) Jan. 2021 - Jan. 2024
 
