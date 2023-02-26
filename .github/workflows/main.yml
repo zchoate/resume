@@ -11,16 +11,15 @@ jobs:
       - name: create file list
         id: file_list
         run: |
-          mkdir output
-          echo "::set-output name=files::$(printf '"%s" ' * .md)"
+          echo "::set-output name=files::$(printf '"%s" ' *.md)"
 
       - name: create pdf
         uses: docker://pandoc/latex:2.9
         with:
-          args: --output=output/resume.pdf ${{ steps.file_list.outputs.files }}
+          args: --output=resume.pdf ${{ steps.file_list.outputs.files }}
 
       - name: upload artifact
         uses: actions/upload-artifact@v3
         with:
           name: resume.pdf
-          path: output/resume.pdf
+          path: resume.pdf
