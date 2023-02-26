@@ -8,13 +8,19 @@ jobs:
     steps:
       - uses: actions/checkout@v3
 
+      - name: create file list
+        id: file_list
+        run: |
+          mkdir output
+          echo "::set-output name=files::$(printf '"%s" ' * .md)"
+
       - name: create pdf
         uses: docker://pandoc/latex:2.9
         with:
-          args: --output=resume.pdf readme.md
+          args: --output=output/resume.pdf ${{ steps.file_list.outputs.files }}
 
       - name: upload artifact
         uses: actions/upload-artifact@v3
         with:
           name: resume.pdf
-          path: resume.pdf
+          path: output/resume.pdf
