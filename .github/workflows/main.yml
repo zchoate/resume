@@ -11,7 +11,7 @@ jobs:
       - name: create pdf
         uses: docker://pandoc/latex:2.9
         with:
-          args: --output=resume.pdf resume.md
+          args: --output=resume.pdf readme.md
 
       - name: upload artifact
         uses: actions/upload-artifact@v3
