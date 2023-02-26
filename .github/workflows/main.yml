@@ -8,10 +8,15 @@ jobs:
     steps:
       - uses: actions/checkout@v3
 
-      - name: create pdf
-        uses: docker://pandoc/latex:2.9
+      - name: create html
+        uses: docker://pandoc/extra
         with:
-          args: --output=resume.pdf readme.md
+          args: --from=gfm --to=html -o resume.html readme.md
+
+      - name: create pdf
+        uses: docker://pandoc/extra
+        with:
+          args: --from=html --to=pdf -o resume.pdf resume.html
 
       - name: upload artifact
         uses: actions/upload-artifact@v3
