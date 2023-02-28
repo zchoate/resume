@@ -1,10 +1,13 @@
 FROM python:3-bullseye
 
-RUN pip install -r requirements.txt && \
-    mkdir /data
-
-COPY main.py /data/main.py
+RUN mkdir /data
 
 WORKDIR /data
+
+COPY requirements.txt .
+
+RUN pip install -r requirements.txt
+
+COPY main.py .
 
 CMD ["python", "main.py"]
