@@ -25,7 +25,7 @@ html_text = md.render(text)
 open_article = Path(open_article_path).read_text(encoding="utf-8")
 close_article = Path(close_article_path).read_text(encoding="utf-8")
 html = open_article + html_text + close_article
-Path(output_html).write_text(html, encoding="utf-8")
+Path(output_html).write_text(html)
 
 font_config = FontConfiguration()
 html = HTML(string=html)
