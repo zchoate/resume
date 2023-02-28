@@ -18,12 +18,12 @@ close_article_path = assets_path + '/close_article.html'
 
 md = MarkdownIt("gfm-like")
 
-text = Path(source_file).read_text(encoding="utf-8")
+text = Path(source_file).read_text()
 
 tokens = md.parse(text)
 html_text = md.render(text)
-open_article = Path(open_article_path).read_text(encoding="utf-8")
-close_article = Path(close_article_path).read_text(encoding="utf-8")
+open_article = Path(open_article_path).read_text()
+close_article = Path(close_article_path).read_text()
 html = open_article + html_text + close_article
 Path(output_html).write_text(html)
 
