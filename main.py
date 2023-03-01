@@ -15,6 +15,7 @@ assets_path = os.getenv('ASSETS_PATH', 'assets/partials')
 
 open_article_path = assets_path + '/open_article.html'
 close_article_path = assets_path + '/close_article.html'
+css_url = "https://cdnjs.cloudflare.com/ajax/libs/github-markdown-css/5.2.0/github-markdown-light.min.css"
 
 md = MarkdownIt("gfm-like")
 
@@ -30,4 +31,7 @@ Path(output_html).write_text(html, encoding="utf-8")
 font_config = FontConfiguration()
 html = HTML(string=html)
 
-html.write_pdf(output_pdf)
+html.write_pdf(
+        output_pdf,
+        stylesheets=[css_url]
+    )
