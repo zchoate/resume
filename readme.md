@@ -28,13 +28,13 @@ GitHub: [https://github.com/zchoate](https://github.com/zchoate)
 - DevOps Tooling
    - GitHub
    - Azure DevOps
-   - Infrastructure as Code and Configuration Management: ARM Templates, Terraform, Cloud-Init, Ansible
+   - Infrastructure as Code and Configuration Management: Terraform, Cloud-Init, Ansible
    - Scripting: Powershell, BASH, and Python (entry-level)
 - Networking
    - Vendors: Fortinet, Aruba, Cisco, Ubiquiti
    - Solutions: IPsec, routing, L2 switching, firewalls, wireless
 - Infrastructure
-   - Virtualization: vmWare vSphere and vCenter, Hyper-V, and exposure to KVM
+   - Virtualization: vmWare vSphere and vCenter, Hyper-V, and KVM
    - Windows Server: Active Directory, Group Policy, DHCP, DNS, IIS, SQL Server, DFS
    - Linux: primarily Ubuntu
    - Public DNS management: Cloudflare and Azure DNS
