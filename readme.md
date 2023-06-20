@@ -3,17 +3,13 @@ LinkedIn: [https://www.linkedin.com/in/zchoate](https://www.linkedin.com/in/zcho
 GitHub: [https://github.com/zchoate](https://github.com/zchoate)
 
 # Education and Certifications
-
-**Western Governors University**                                Feb. 2014 - Dec. 2016 <br>
-   Bachelor of Science, Information Technology with emphasis in Network Administration
-
-[**Microsoft Certified: Azure Administator Associate**](https://www.credly.com/badges/f0113f92-2077-4b39-ad4c-3ae4a5ab6964/public_url)                      Dec. 2018 - Dec. 2023
-
-[**Microsoft Certified: Azure Solutions Architect Expert**](https://www.credly.com/badges/2e7d531b-d75f-4596-9091-30a18940ede7/public_url) Jan. 2021 - Jan. 2024
-
+**Western Governors University** - Dec. 2016 </br>
+   Bachelor of Science, Information Technology with emphasis in Network Administration </br></br>
+**Microsoft Certified**</br>
+[Azure Administrator Associate](https://www.credly.com/badges/f0113f92-2077-4b39-ad4c-3ae4a5ab6964/public_url) - Dec. 2018 - Dec. 2023 </br>
+[Azure Solutions Architect Expert](https://www.credly.com/badges/2e7d531b-d75f-4596-9091-30a18940ede7/public_url) - Jan. 2021 - Jan. 2024 </br>
 
 # Skills
-
 - Public Cloud
    - Azure (Design, Build, and Maintain)
       - Backup and Recovery: VM backup, Microsoft Azure Backup Server
@@ -27,18 +23,18 @@ GitHub: [https://github.com/zchoate](https://github.com/zchoate)
       - Storage: Blob, Table, Files
    - Microsoft 365 Suite (Design, Build, Maintain, and Migrate)
       - Intune including AutoPilot (true zero-touch deployment implementations)
-      - Commerical and GCC High clouds
+      - Commercial and GCC High clouds
       - Greenfield implementation, migration from on-premise, migration between tenants
 - DevOps Tooling
    - GitHub
    - Azure DevOps
-   - Infrastructure as Code and Configuration Management: ARM Templates, Terraform, Cloud-Init, Ansible
+   - Infrastructure as Code and Configuration Management: Terraform, Cloud-Init, Ansible
    - Scripting: Powershell, BASH, and Python (entry-level)
 - Networking
    - Vendors: Fortinet, Aruba, Cisco, Ubiquiti
    - Solutions: IPsec, routing, L2 switching, firewalls, wireless
 - Infrastructure
-   - Virtualization: vmWare vSphere and vCenter, Hyper-V, and exposure to KVM
+   - Virtualization: vmWare vSphere and vCenter, Hyper-V, and KVM
    - Windows Server: Active Directory, Group Policy, DHCP, DNS, IIS, SQL Server, DFS
    - Linux: primarily Ubuntu
    - Public DNS management: Cloudflare and Azure DNS
@@ -56,7 +52,6 @@ GitHub: [https://github.com/zchoate](https://github.com/zchoate)
 
 
 # Experience
-
 **Cloud Architect - IoT Enablement**</br>
 *IDEX Corporation* -                                  July 2021 - current 
 - Serve as a subject matter expert on Cloud services including Azure, Kubernetes, containerization, and infrastructure as code (IaC)
