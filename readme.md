@@ -13,7 +13,7 @@ GitHub: [https://github.com/zchoate](https://github.com/zchoate)
 - Public Cloud
    - Azure (Design, Build, and Maintain)
       - Backup and Recovery: VM backup, Microsoft Azure Backup Server
-      - Compute: Windows, Linux, Azure Virtual Desktop
+      - Compute: Windows, [Linux](https://github.com/zchoate/terraform-az-linux-vm), Azure Virtual Desktop
       - Containers: App Service, Function Apps, Azure Kubernetes Service, Container Registry
       - Data: Azure SQL, Azure PostgreSQL (Standard and Flexible)
       - Data Analysis: Azure Data Factory, Synapse, AzureML
@@ -26,9 +26,9 @@ GitHub: [https://github.com/zchoate](https://github.com/zchoate)
       - Commercial and GCC High clouds
       - Greenfield implementation, migration from on-premise, migration between tenants
 - DevOps Tooling
-   - GitHub
+   - [GitHub](https://github.com/zchoate/terraform-az-linux-vm)
    - Azure DevOps
-   - Infrastructure as Code and Configuration Management: Terraform, Cloud-Init, Ansible
+   - Infrastructure as Code and Configuration Management: [Terraform](https://github.com/zchoate/terraform-az-linux-vm), Cloud-Init, Ansible
    - Scripting: Powershell, BASH, and Python (entry-level)
 - Networking
    - Vendors: Fortinet, Aruba, Cisco, Ubiquiti
