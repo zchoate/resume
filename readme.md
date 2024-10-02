@@ -10,17 +10,29 @@ GitHub: [https://github.com/zchoate](https://github.com/zchoate)
 [Azure Solutions Architect Expert](https://learn.microsoft.com/en-us/users/choate/credentials/57b71aeecd808f6e) - Jan. 2021 - Jan. 2025 </br>
 
 # Experience
+**Senior Staff Architect**</br>
+*Resultant* -                                         April 2024 - current
+- **Delivery Standards Development:**
+   - Develop and maintain technical standards for delivery teams, ensuring consistency across projects.
+   - Collaborate with stakeholders to identify areas for process improvement and implement changes to enhance delivery quality and reduce costs.
+- **Project Delivery:**
+   - Lead or contribute to select projects, applying technical expertise to drive successful outcomes.
+   - Conduct IT assessments to identify opportunities for improvement and provide strategic guidance on solution architecture.
+- **Client Engagement:**
+   - Provide high-level solution architecture and technical guidance to clients and internal stakeholders.
+   - Offer strategic advice on digital transformation, combining a strong background in infrastructure, cloud, DevOps, and developer enablement.
+---
 **Cloud Architect - IoT Enablement**</br>
-*IDEX Corporation* -                                  July 2021 - current 
+*IDEX Corporation* -                                  July 2021 - April 2024 
 - **Strategic Leadership and Advisory Role:**
-   - Advise business units on Cloud and IoT strategies, providing recommendations and insights to accelerate their digital transformation journey.
-   - Establish standards and best practices for Cloud adoption, collaborating closely with stakeholders to ensure alignment with organizational goals and requirements.
+   - Advised business units on Cloud and IoT strategies, providing recommendations and insights to accelerate their digital transformation journey.
+   - Established standards and best practices for Cloud adoption, collaborating closely with stakeholders to ensure alignment with organizational goals and requirements.
 - **Subject Matter Expertise (SME) and Technical Guidance:**
-   - Serve as a subject matter expert (SME) on cloud-native technologies, including Azure, Kubernetes, and infrastructure as code (IaC), providing guidance and expertise to internal teams and stakeholders.
-   - Work closely with development groups to evaluate and enhance DevOps practices and cloud solutions, aiming to increase development velocity and streamline deployments.
+   - Served as a subject matter expert (SME) on cloud-native technologies, including Azure, Kubernetes, and infrastructure as code (IaC), providing guidance and expertise to internal teams and stakeholders.
+   - Worked closely with development groups to evaluate and enhance DevOps practices and cloud solutions, aiming to increase development velocity and streamline deployments.
 - **Efficiency Optimization and Innovation:**
-   - Drive initiatives to reduce time to market and costs by identifying commonalities between solutions and streamlining development efforts.
-   - Drive innovation in digital and IoT capabilities, leading proof of concept projects and MVPs to demonstrate value and accelerate digital transformation.
+   - Drove initiatives to reduce time to market and costs by identifying commonalities between solutions and streamlining development efforts.
+   - Drove innovation in digital and IoT capabilities, leading proof of concept projects and MVPs to demonstrate value and accelerate digital transformation.
 - **Key Projects:**
    - Developed and built proof of concept IoT data acquisition solution that also provides remote connectivity to low powered devices behind a cellular connection.
    - Implemented various standard solutions via Infrastructure as Code (IaC), including:
@@ -32,19 +44,19 @@ GitHub: [https://github.com/zchoate](https://github.com/zchoate)
 ---
 **Cloud Engineer**</br>
 *Resultant (formerly KSM Consulting)* -               Sept. 2020 - July 2021
-- Leverage DevOps practices to deploy and maintain solutions including infrastructure as code, web applications, and databases
-- Serve as a subject matter expert on Azure services and Kubernetes
-- Deploy, manage, and advise on infrastructure as code deployments stored in Git repositories with CI/CD to push changes
-- Deploy, manage, and advise on application deployments in Kubernetes including building images
-- Advise clients on DevOps and Cloud best practices
+- Leveraged DevOps practices to deploy and maintain solutions including infrastructure as code, web applications, and databases
+- Served as a subject matter expert on Azure services and Kubernetes
+- Deployed, managed, and advised on infrastructure as code deployments stored in Git repositories with CI/CD to push changes
+- Deployed, managed, and advised on application deployments in Kubernetes including building images
+- Advised clients on DevOps and Cloud best practices
 ---
 **System Lead**<br>
 *Resultant (formerly KSM Consulting)* -               Feb. 2020 – Sept. 2020
-- Define and set technology standards and baselines for clients
-- Create roadmaps to get clients' environments to meet baselines
-- Serve as a senior escalation point
-- Mentor and provide feedback to system administrators
-- Serve as subject matter expert in Azure services, Intune implementation and management, Powershell scripting, and web hosting - especially Wordpress
+- Defined and set technology standards and baselines for clients
+- Created roadmaps to get clients' environments to meet baselines
+- Served as a senior escalation point
+- Mentored to system administrators
+- Served as subject matter expert in Azure services, Intune implementation and management, Powershell scripting, and web hosting - especially Wordpress
 ---
 **System Administrator**<br> 
 *Resultant (formerly KSM Consulting)* -               May 2017 – Feb. 2020
