@@ -6,12 +6,27 @@ GitHub: [https://github.com/zchoate](https://github.com/zchoate)
 **Western Governors University** - Dec. 2016 </br>
    Bachelor of Science, Information Technology with emphasis in Network Administration </br></br>
 **Microsoft Certified**</br>
-[Azure Administrator Associate](https://learn.microsoft.com/en-us/users/choate/credentials/76585d8e0b6447f5) - Dec. 2018 - Dec. 2024 </br>
-[Azure Solutions Architect Expert](https://learn.microsoft.com/en-us/users/choate/credentials/57b71aeecd808f6e) - Jan. 2021 - Jan. 2025 </br>
+[Azure Administrator Associate](https://learn.microsoft.com/en-us/users/choate/credentials/76585d8e0b6447f5) - Dec. 2018 - Dec. 2025 </br>
+[Azure Solutions Architect Expert](https://learn.microsoft.com/en-us/users/choate/credentials/57b71aeecd808f6e) - Jan. 2021 - Jan. 2027 </br>
 
 # Experience
+**Cloud Architect**</br>
+*IDEX Corporation* -                                  Jan. 2025 - current
+- **Customer Identity Platform (CIAM) Design and Delivery:**
+   - Assumed full technical ownership of a CIAM initiative originally scoped as an advisory engagement with an external vendor; identified architectural concerns with the proposed Azure AD B2C approach and led a technology pivot to Keycloak to better meet long-term business requirements.
+   - Architected and delivered the resulting CIAM platform built on Keycloak, hosted on Azure App Service with Azure Front Door for global ingress, WAF, and TLS termination — deployed end-to-end via Terraform.
+   - Built a management abstraction layer in Go to expose a controlled API surface over Keycloak administration operations, reducing operational exposure and enabling self-service workflows.
+   - Developed a custom Keycloak theme using Keycloakify and React, providing a branded and accessible authentication experience aligned with product UX standards.
+   - Extended Keycloak with custom Java extensions to support business-specific authentication flows and identity brokering requirements.
+- **Stakeholder Engagement and Project Ownership:**
+   - Gathered and translated requirements from business and product stakeholders into a phased technical delivery plan.
+   - Owned project communications across the full lifecycle — from discovery through go-live — maintaining alignment between technical execution and business expectations.
+   - Retained ownership of production support post-launch, establishing a feedback loop with stakeholders to drive iterative improvement.
+- **Continued Strategic and Advisory Responsibilities:**
+   - Continued to apply cloud architecture expertise in an advisory capacity, informing standards and contributing to broader organizational cloud strategy.
+---
 **Senior Staff Architect**</br>
-*Resultant* -                                         April 2024 - current
+*Resultant* -                                         April 2024 - Jan. 2025
 - **Delivery Standards Development:**
    - Develop and maintain technical standards for delivery teams, ensuring consistency across projects.
    - Collaborate with stakeholders to identify areas for process improvement and implement changes to enhance delivery quality and reduce costs.
