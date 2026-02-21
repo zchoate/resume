@@ -1,4 +1,4 @@
-name: Create a PDF
+name: Build Resume
 
 on: push
 
@@ -6,44 +6,62 @@ permissions:
   contents: write
 
 jobs:
-  create_pdf:
+  build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
+
+      - name: Install system dependencies
+        run: sudo apt-get install -y libpango-1.0-0 libpangoft2-1.0-0
 
       - name: Setup Python
         uses: actions/setup-python@v4
         with:
           python-version: "3.11"
-          
+
       - name: Install requirements
         run: |
           python -m pip install --upgrade pip
           pip install -r requirements.txt
 
-      - name: create artifacts
-        run: |
-          python main.py
+      - name: Build artifacts
+        run: python main.py
         env:
+          OUTPUT_MD: readme.md
           OUTPUT_HTML: resume.html
           OUTPUT_PDF: resume.pdf
+          OUTPUT_DOCX: resume.docx
 
-      - name: upload artifact
-        uses: actions/upload-artifact@v3
+      - name: Upload Markdown
+        uses: actions/upload-artifact@v4
+        with:
+          name: readme.md
+          path: readme.md
+
+      - name: Upload HTML
+        uses: actions/upload-artifact@v4
         with:
           name: resume.html
           path: resume.html
 
-      - name: upload artifact
-        uses: actions/upload-artifact@v3
+      - name: Upload PDF
+        uses: actions/upload-artifact@v4
         with:
           name: resume.pdf
           path: resume.pdf
-      
-      - name: upload to release
+
+      - name: Upload Word
+        uses: actions/upload-artifact@v4
+        with:
+          name: resume.docx
+          path: resume.docx
+
+      - name: Upload to release
         uses: softprops/action-gh-release@v1
         if: startsWith(github.ref, 'refs/tags/')
         with:
           files: |
+            readme.md
             resume.html
             resume.pdf
+            resume.docx

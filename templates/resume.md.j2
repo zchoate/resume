@@ -1,0 +1,39 @@
+# {{ basics.name }}
+{% for profile in basics.profiles -%}
+{{ profile.network }}: [{{ profile.url }}]({{ profile.url }}) </br>
+{% endfor %}
+{% if basics.summary %}
+{{ basics.summary | trim }}
+{% endif %}
+
+# Experience
+{% for job in work %}
+**{{ job.position }}**</br>
+*{{ job.name }}* - {{ job.startDate | format_date }} - {% if job.endDate %}{{ job.endDate | format_date }}{% else %}Present{% endif %}
+{% if job.highlights %}
+{% for h in job.highlights %}
+- {{ h }}
+{% endfor %}
+{% endif %}
+{% if not loop.last %}---
+{% endif %}
+{% endfor %}
+
+# Education
+{% for edu in education %}
+**{{ edu.institution }}** - {{ edu.endDate[:4] }}</br>
+{{ edu.studyType }}, {{ edu.area }}
+{% endfor %}
+
+# Certifications
+{% for cert in certificates %}
+**{{ cert.name }}** - {{ cert.issuer }} ({{ cert.date[:4] }})</br>
+{% if cert.url %}[View Credential]({{ cert.url }})</br>{% endif %}
+{% endfor %}
+
+# Skills
+{% for skill in skills %}
+**{{ skill.name }}**</br>
+{{ skill.keywords | join(', ') }}
+
+{% endfor %}
