@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <style>
+    @page {
+      margin: 0.65in 0.75in;
+      size: letter;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: 'Calibri', 'Segoe UI', Arial, sans-serif;
+      font-size: 9.5pt;
+      color: #1a1a1a;
+      line-height: 1.4;
+    }
+
+    /* ── Header ── */
+    .header {
+      text-align: center;
+      padding-bottom: 8pt;
+      border-bottom: 1.5pt solid #1e4d78;
+      margin-bottom: 10pt;
+    }
+    h1 {
+      font-size: 20pt;
+      font-weight: 700;
+      letter-spacing: -0.01em;
+      color: #111;
+    }
+    .label {
+      font-size: 10.5pt;
+      color: #1e4d78;
+      margin-top: 2pt;
+    }
+    .contact {
+      font-size: 8.5pt;
+      color: #555;
+      margin-top: 4pt;
+    }
+    .contact a { color: #1e4d78; text-decoration: none; }
+    .summary {
+      font-size: 9pt;
+      color: #333;
+      line-height: 1.5;
+      margin-top: 7pt;
+      text-align: left;
+    }
+
+    /* ── Section headings ── */
+    h2 {
+      font-size: 8.5pt;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.12em;
+      color: #1e4d78;
+      border-bottom: 1pt solid #1e4d78;
+      padding-bottom: 2pt;
+      margin: 11pt 0 5pt;
+    }
+
+    /* ── Work experience ── */
+    .job { margin-bottom: 9pt; }
+    .job-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+    }
+    .job-left { flex: 1; }
+    .job-company { font-weight: 700; }
+    .job-position { font-style: italic; }
+    .dates {
+      font-size: 8.5pt;
+      color: #666;
+      white-space: nowrap;
+      margin-left: 8pt;
+    }
+    ul {
+      margin: 3pt 0 0 14pt;
+      padding: 0;
+    }
+    li {
+      margin-bottom: 1.5pt;
+      font-size: 9pt;
+      line-height: 1.4;
+    }
+
+    /* ── Education & Certs ── */
+    .edu-item, .cert-item {
+      font-size: 9pt;
+      margin-bottom: 4pt;
+    }
+
+    /* ── Skills ── */
+    .skills-grid {
+      column-count: 2;
+      column-gap: 18pt;
+    }
+    .skill-group {
+      break-inside: avoid;
+      margin-bottom: 5pt;
+    }
+    .skill-name {
+      font-weight: 700;
+      font-size: 8.5pt;
+      color: #1e4d78;
+    }
+    .skill-keywords {
+      font-size: 8pt;
+      color: #333;
+      line-height: 1.4;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="header">
+    <h1>{{ basics.name }}</h1>
+    <div class="label">{{ basics.label }}</div>
+    <div class="contact">
+      {% for profile in basics.profiles -%}
+        <a href="{{ profile.url }}">{{ profile.network }}: {{ profile.url }}</a>
+        {%- if not loop.last %} &nbsp;&bull;&nbsp; {% endif %}
+      {%- endfor %}
+    </div>
+    {% if basics.summary %}
+    <div class="summary">{{ basics.summary | trim }}</div>
+    {% endif %}
+  </div>
+
+  <h2>Experience</h2>
+  {% for job in work %}
+  <div class="job">
+    <div class="job-header">
+      <div class="job-left">
+        <span class="job-company">{{ job.name }}</span>
+        &mdash;
+        <span class="job-position">{{ job.position }}</span>
+      </div>
+      <span class="dates">
+        {{ job.startDate | format_date }}
+        &ndash;
+        {% if job.endDate %}{{ job.endDate | format_date }}{% else %}Present{% endif %}
+      </span>
+    </div>
+    {% if job.highlights %}
+    <ul>
+      {% for h in job.highlights %}<li>{{ h }}</li>{% endfor %}
+    </ul>
+    {% endif %}
+  </div>
+  {% endfor %}
+
+  <h2>Education</h2>
+  {% for edu in education %}
+  <div class="edu-item">
+    <strong>{{ edu.institution }}</strong> &mdash;
+    {{ edu.studyType }}, {{ edu.area }}
+    ({{ edu.endDate[:4] }})
+  </div>
+  {% endfor %}
+
+  <h2>Certifications</h2>
+  {% for cert in certificates %}
+  <div class="cert-item">
+    <strong>{{ cert.name }}</strong>, {{ cert.issuer }}
+    ({{ cert.date[:4] }})
+  </div>
+  {% endfor %}
+
+  <h2>Skills</h2>
+  <div class="skills-grid">
+    {% for skill in skills %}
+    <div class="skill-group">
+      <div class="skill-name">{{ skill.name }}</div>
+      <div class="skill-keywords">{{ skill.keywords | join(', ') }}</div>
+    </div>
+    {% endfor %}
+  </div>
+
+</body>
+</html>
