@@ -90,42 +90,28 @@ GitHub: [https://github.com/zchoate](https://github.com/zchoate)
 *Kittle's Home Furnishings* -       Sept. 2014 – June 2015
 
 # Skills
-- Public Cloud
-   - Azure (Design, Build, and Maintain)
-      - Backup and Recovery: VM backup, Microsoft Azure Backup Server
-      - Compute: Windows, [Linux](https://github.com/zchoate/terraform-az-linux-vm), Azure Virtual Desktop
-      - Containers: App Service, Function Apps, Azure Kubernetes Service, Container Registry
-      - Data: Azure SQL, Azure PostgreSQL (Standard and Flexible)
-      - Data Analysis: Azure Data Factory, Synapse, AzureML
-      - Identity: Azure Active Directory, B2C, AADDS, Managed Identity
-      - Networking: Virtual networks, Network Security Groups, NAT Gateways, internal and external load balancers, Application Gateway including WAF, IPsec and ExpressRoute connectivity, Private Link and Private Endpoint
-      - Security: Key Vault, Defender for Cloud, AAD Privileged Identity Management, AAD Identity Protection
-      - Storage: Blob, Table, Files
-   - Microsoft 365 Suite (Design, Build, Maintain, and Migrate)
-      - Intune including AutoPilot (true zero-touch deployment implementations)
-      - Commercial and GCC High clouds
-      - Greenfield implementation, migration from on-premise, migration between tenants
-- DevOps Tooling
-   - [GitHub](https://github.com/zchoate/terraform-az-linux-vm)
-   - Azure DevOps
-   - Infrastructure as Code and Configuration Management: [Terraform](https://github.com/zchoate/terraform-az-linux-vm), Cloud-Init, Ansible
-   - Scripting: Powershell, BASH, and Python
-- Networking
-   - Vendors: Fortinet, Aruba, Cisco, Ubiquiti
-   - Solutions: IPsec, routing, L2 switching, firewalls, wireless
-- Infrastructure
-   - Virtualization: vmWare vSphere and vCenter, Hyper-V, and KVM
-   - Windows Server: Active Directory, Group Policy, DHCP, DNS, IIS, SQL Server, DFS
-   - Linux: primarily Ubuntu
-   - Public DNS management: Cloudflare and Azure DNS
-   - Certificate management: cert-manager and other ACME tools
-- Containerization and Orchestration
-   - Docker and Docker Compose
-   - Kubernetes
-      - Ingress controllers including Nginx, Istio, Azure Application Gateway
-      - Experience with Kubernetes on Azure, AWS, and K3s
-   - Creation and optimization of container images
-- Architecture
-   - Solution architecture review (hybrid and cloud solutions)
-   - Common patterns for IoT solutions from an OEM perspective
-   - Designing solutions that are cloud-agnostic
+
+**Cloud Platforms**
+- Azure: App Service, Azure Kubernetes Service (AKS), Container Registry, Function Apps, Azure Front Door, Virtual Networks, Network Security Groups, NAT Gateway, Load Balancers, Application Gateway with WAF, Private Link and Private Endpoint, IPsec and ExpressRoute connectivity, Key Vault, Defender for Cloud, Microsoft Entra ID (Azure Active Directory / Azure AD), B2C, Azure AD Domain Services, Managed Identity, Privileged Identity Management, Identity Protection, Azure SQL, Azure PostgreSQL, Blob/Table/Files Storage, Azure Data Factory, Synapse, AzureML, VM Backup, Azure Backup Server, Azure Virtual Desktop
+- Microsoft 365: Intune with AutoPilot (zero-touch deployment), Commercial and GCC High, greenfield implementation, on-premise migration, tenant-to-tenant migration
+
+**Identity & Access Management**
+Keycloak, CIAM, OAuth2, OIDC, Azure AD B2C, Microsoft Entra ID, Managed Identity, Privileged Identity Management, Identity Protection, Azure AD Domain Services
+
+**Infrastructure as Code & DevOps**
+Terraform, Ansible, Cloud-Init, GitHub, Azure DevOps, CI/CD pipelines, Git
+
+**Containers & Orchestration**
+Docker, Docker Compose, Kubernetes (AKS, AWS, K3s), Nginx Ingress, Istio, Azure Application Gateway Ingress Controller (AGIC), container image creation and optimization
+
+**Programming & Scripting**
+Go, Java, Python, PowerShell, Bash, React (Keycloakify)
+
+**Networking**
+IPsec VPN, ExpressRoute, routing, L2 switching, firewall management, wireless; Fortinet, Aruba, Cisco, Ubiquiti; Cloudflare DNS, Azure DNS, cert-manager, ACME certificate management
+
+**Infrastructure & Virtualization**
+VMware vSphere and vCenter, Hyper-V, KVM, Windows Server (Active Directory, Group Policy, DHCP, DNS, IIS, SQL Server, DFS), Linux (Ubuntu)
+
+**Solution Architecture**
+Hybrid and cloud solution design, IoT architecture (OEM/manufacturing), cloud-agnostic design, architecture review
