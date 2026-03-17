@@ -22,27 +22,24 @@ work:
     position: Cloud Architect
     startDate: "2025-01-01"
     highlights:
-      - "Technical lead for the Customer Identity Platform, a production CIAM system serving external customers across IDEX's global eCommerce storefronts. Own the architecture, delivery, production support, and business stakeholder relationships; an MSP handles infrastructure monitoring under my direction."
-      - "Took over a CIAM initiative originally scoped as a vendor advisory engagement. Identified fundamental architectural problems with the proposed Azure AD B2C approach and made the case to pivot to Keycloak, which better fit the long-term business needs."
+      - "Architected and delivered a Customer Identity Platform that consolidated identity across 15+ customer-facing applications, which previously managed accounts independently, into a single platform. Improved end-user experience, standardized security controls, and eliminated per-application identity overhead for business units."
+      - "Operated as the sole technical contributor, product owner, and project manager for the platform, personally owning architecture, infrastructure, application development, Keycloak configuration, and user migrations while managing business stakeholder relationships from inception through go-live. Infrastructure monitoring is handled by an MSP under my direction."
+      - "Took over a CIAM initiative originally scoped as a vendor advisory engagement. Delivered a PoC within 4-5 months before identifying fundamental architectural problems with the proposed Azure AD B2C approach and making the case to pivot to Keycloak. Delivered the production-ready platform in under a year from project start."
       - "Designed and delivered the Keycloak-based CIAM platform on Azure App Service, with Azure Front Door handling global ingress, WAF, and TLS termination, deployed entirely via Terraform."
-      - "Built a Go service wrapping Keycloak's admin API to limit which operations are exposed, making it safe for teams to manage their own identity configuration without direct Keycloak access."
+      - "Built a Go service on top of Keycloak's admin API that serves as a self-service admin portal, allowing non-technical application managers to manage users for their respective applications without requiring direct Keycloak access or platform team involvement."
       - "Built a custom Keycloak login theme with Keycloakify and React to match IDEX's product UX standards."
       - "Wrote custom Java extensions for Keycloak to handle non-standard authentication flows and identity brokering."
-      - "Worked directly with business and product stakeholders to define requirements and build a delivery plan. Ran project communications from kickoff through go-live."
-      - "Kept ownership of production support after launch, staying in regular contact with stakeholders to prioritize ongoing improvements."
-      - "Continue to advise on cloud architecture decisions and set standards outside of the CIAM platform, contributing to IDEX's broader cloud direction."
-      - "Serve as the go-to for developer teams navigating cloud infrastructure at a company that hasn't traditionally prioritized software development, working through deployment patterns, scaling needs, and application hosting as IDEX grows its software product portfolio."
+      - "Act as a cloud and DevOps resource for developer teams across IDEX's decentralized business units, engaging with 10-15 units on architecture decisions, deployment patterns, and application hosting."
 
   - name: Resultant
     position: Senior Staff Architect
     startDate: "2024-04-01"
     endDate: "2025-01-01"
     highlights:
-      - "Wrote and maintained technical standards for delivery teams to follow across client engagements."
-      - "Worked with stakeholders to find process gaps and make changes that improved delivery quality and cut costs."
-      - "Led or contributed to select client projects hands-on."
-      - "Ran IT assessments to surface improvement opportunities and advise on solution architecture."
-      - "Advised clients on digital transformation drawing on background in infrastructure, cloud, DevOps, and developer tooling."
+      - "Served as technical lead for a 14-person Managed Services Project Delivery team spanning networking, infrastructure, cloud, M365, EUC, and cybersecurity, providing technical guidance, project alignment, and skills gap identification across domains."
+      - "Advised larger organizations on cloud migration strategy, helping build approaches for moving workloads to cloud and reducing colocation footprint."
+      - "Led IT operational assessments across client environments, rebuilding the assessment templates and tooling used to surface improvement opportunities and solution architecture recommendations."
+      - "Wrote and maintained technical standards for delivery teams across client engagements."
 
   - name: IDEX Corporation
     position: Cloud Architect - IoT Enablement
