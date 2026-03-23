@@ -2,12 +2,7 @@
 
 basics:
   name: Zachary Choate
-  label: Cloud Architect | Industrial & Manufacturing
-  summary: >
-    Cloud architect working with manufacturing and industrial companies to modernize infrastructure
-    and help developer teams get things done. Most of this work is about reshaping how traditional
-    IT operates to actually support software development — putting governance, cloud standards, and
-    IIoT foundations in place at organizations where those things are often built from scratch.
+  label: Cloud Architect
   url: https://github.com/zchoate
   profiles:
     - network: LinkedIn
@@ -22,10 +17,10 @@ work:
     position: Cloud Architect
     startDate: "2025-01-01"
     highlights:
-      - "Architected and delivered a Customer Identity Platform that consolidated identity across 15+ customer-facing applications, which previously managed accounts independently, into a single platform. Improved end-user experience, standardized security controls, and eliminated per-application identity overhead for business units."
-      - "Operated as the sole technical contributor, product owner, and project manager for the platform, personally owning architecture, infrastructure, application development, Keycloak configuration, and user migrations while managing business stakeholder relationships from inception through go-live. Infrastructure monitoring is handled by an MSP under my direction."
-      - "Took over a CIAM initiative originally scoped as a vendor advisory engagement. Delivered a PoC within 4-5 months before identifying fundamental architectural problems with the proposed Azure AD B2C approach and making the case to pivot to Keycloak. Delivered the production-ready platform in under a year from project start."
-      - "Designed and delivered the Keycloak-based CIAM platform on Azure App Service, with Azure Front Door handling global ingress, WAF, and TLS termination, deployed entirely via Terraform."
+      - "Architected and delivered a Customer Identity Platform that consolidated identity across 15+ customer-facing applications, which previously managed accounts independently, into a single platform with a golden customer identity record, standardized security requirements, and MFA enforced across all accounts. Eliminated per-application identity overhead for business units and improved end-user experience."
+      - "Operated as the sole technical contributor, product owner, and project manager for the platform, personally owning architecture, infrastructure, application development, Keycloak configuration, and user migrations while managing business stakeholder relationships from inception through go-live. A third of accounts on the platform already access multiple applications through a unified identity. Infrastructure monitoring is handled by an MSP under my direction."
+      - "Took over the Customer Identity Platform initative, originally scoped as an external engagement, saving the company in excess of $200,000. Built a PoC within 4-5 months, identified fundamental architectural problems with the proposed Azure AD B2C approach, revised the solution architecture, and made the case to pivot to Keycloak. Delivered the production-ready platform in under a year from project start."
+      - "Designed and delivered the Keycloak-based Customer Identity Platform on Azure App Service, with Azure Front Door handling global ingress, WAF, and TLS termination, deployed entirely via Terraform."
       - "Built a Go service on top of Keycloak's admin API that serves as a self-service admin portal, allowing non-technical application managers to manage users for their respective applications without requiring direct Keycloak access or platform team involvement."
       - "Built a custom Keycloak login theme with Keycloakify and React to match IDEX's product UX standards."
       - "Wrote custom Java extensions for Keycloak to handle non-standard authentication flows and identity brokering."
@@ -36,10 +31,10 @@ work:
     startDate: "2024-04-01"
     endDate: "2025-01-01"
     highlights:
-      - "Served as technical lead for a 14-person Managed Services Project Delivery team spanning networking, infrastructure, cloud, M365, EUC, and cybersecurity, providing technical guidance, project alignment, and skills gap identification across domains."
-      - "Advised larger organizations on cloud migration strategy, helping build approaches for moving workloads to cloud and reducing colocation footprint."
-      - "Led IT operational assessments across client environments, rebuilding the assessment templates and tooling used to surface improvement opportunities and solution architecture recommendations."
-      - "Wrote and maintained technical standards for delivery teams across client engagements."
+      - "Served as technical lead for a 14-person Managed Services Project Delivery team spanning networking, infrastructure, cloud, Microsoft 365, and cybersecurity, providing technical guidance, project alignment, and skills gap identification across domains."
+      - "Advised technical leaders at client organizations on cloud migration strategy, evaluating the cost tradeoffs between lift-and-shift from existing hardware investments versus re-architecting applications to be cloud-native and take full advantage of cloud cost models."
+      - "Revived a dormant IT operational assessment practice, developing new delivery templates, documentation, and processes from the ground up. Delivered assessments across client environments and presented findings and solution architecture recommendations to organizational leaders."
+      - "Authored technical standards for client delivery teams covering cloud resource naming conventions, deployment practices, automation strategies, and infrastructure as code, drawing on enterprise experience to bring consistency across engagements."
 
   - name: IDEX Corporation
     position: Cloud Architect - IoT Enablement
@@ -263,7 +258,6 @@ skills:
       - PowerShell
       - Bash
       - React
-      - Keycloakify
 
   - name: Networking
     keywords:
@@ -299,6 +293,8 @@ skills:
       - DFS
       - Linux
       - Ubuntu
+      - RHEL
+      - NixOS
 
   - name: Solution Architecture
     keywords:
