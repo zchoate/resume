@@ -3,8 +3,6 @@ LinkedIn: [https://www.linkedin.com/in/zchoate](https://www.linkedin.com/in/zcho
 GitHub: [https://github.com/zchoate](https://github.com/zchoate) </br>
 
 
-Cloud architect working with manufacturing and industrial companies to modernize infrastructure and help developer teams get things done. Most of this work is about reshaping how traditional IT operates to actually support software development — putting governance, cloud standards, and IIoT foundations in place at organizations where those things are often built from scratch.
-
 
 # Experience
 
@@ -12,25 +10,21 @@ Cloud architect working with manufacturing and industrial companies to modernize
 *IDEX Corporation* - Jan 2025 - Present
 
 
-- Technical lead for the Customer Identity Platform, a production CIAM system serving external customers across IDEX's global eCommerce storefronts. Own the architecture, delivery, production support, and business stakeholder relationships; an MSP handles infrastructure monitoring under my direction.
+- Architected and delivered a Customer Identity Platform that consolidated identity across 15+ customer-facing applications, which previously managed accounts independently, into a single platform with a golden customer identity record, standardized security requirements, and MFA enforced across all accounts. Eliminated per-application identity overhead for business units and improved end-user experience.
 
-- Took over a CIAM initiative originally scoped as a vendor advisory engagement. Identified fundamental architectural problems with the proposed Azure AD B2C approach and made the case to pivot to Keycloak, which better fit the long-term business needs.
+- Operated as the sole technical contributor, product owner, and project manager for the platform, personally owning architecture, infrastructure, application development, Keycloak configuration, and user migrations while managing business stakeholder relationships from inception through go-live. A third of accounts on the platform already access multiple applications through a unified identity. Infrastructure monitoring is handled by an MSP under my direction.
 
-- Designed and delivered the Keycloak-based CIAM platform on Azure App Service, with Azure Front Door handling global ingress, WAF, and TLS termination, deployed entirely via Terraform.
+- Took over the Customer Identity Platform initative, originally scoped as an external engagement, saving the company in excess of $200,000. Built a PoC within 4-5 months, identified fundamental architectural problems with the proposed Azure AD B2C approach, revised the solution architecture, and made the case to pivot to Keycloak. Delivered the production-ready platform in under a year from project start.
 
-- Built a Go service wrapping Keycloak's admin API to limit which operations are exposed, making it safe for teams to manage their own identity configuration without direct Keycloak access.
+- Designed and delivered the Keycloak-based Customer Identity Platform on Azure App Service, with Azure Front Door handling global ingress, WAF, and TLS termination, deployed entirely via Terraform.
+
+- Built a Go service on top of Keycloak's admin API that serves as a self-service admin portal, allowing non-technical application managers to manage users for their respective applications without requiring direct Keycloak access or platform team involvement.
 
 - Built a custom Keycloak login theme with Keycloakify and React to match IDEX's product UX standards.
 
 - Wrote custom Java extensions for Keycloak to handle non-standard authentication flows and identity brokering.
 
-- Worked directly with business and product stakeholders to define requirements and build a delivery plan. Ran project communications from kickoff through go-live.
-
-- Kept ownership of production support after launch, staying in regular contact with stakeholders to prioritize ongoing improvements.
-
-- Continue to advise on cloud architecture decisions and set standards outside of the CIAM platform, contributing to IDEX's broader cloud direction.
-
-- Serve as the go-to for developer teams navigating cloud infrastructure at a company that hasn't traditionally prioritized software development, working through deployment patterns, scaling needs, and application hosting as IDEX grows its software product portfolio.
+- Act as a cloud and DevOps resource for developer teams across IDEX's decentralized business units, engaging with 10-15 units on architecture decisions, deployment patterns, and application hosting.
 
 
 ---
@@ -40,15 +34,13 @@ Cloud architect working with manufacturing and industrial companies to modernize
 *Resultant* - Apr 2024 - Jan 2025
 
 
-- Wrote and maintained technical standards for delivery teams to follow across client engagements.
+- Served as technical lead for a 14-person Managed Services Project Delivery team spanning networking, infrastructure, cloud, Microsoft 365, and cybersecurity, providing technical guidance, project alignment, and skills gap identification across domains.
 
-- Worked with stakeholders to find process gaps and make changes that improved delivery quality and cut costs.
+- Advised technical leaders at client organizations on cloud migration strategy, evaluating the cost tradeoffs between lift-and-shift from existing hardware investments versus re-architecting applications to be cloud-native and take full advantage of cloud cost models.
 
-- Led or contributed to select client projects hands-on.
+- Revived a dormant IT operational assessment practice, developing new delivery templates, documentation, and processes from the ground up. Delivered assessments across client environments and presented findings and solution architecture recommendations to organizational leaders.
 
-- Ran IT assessments to surface improvement opportunities and advise on solution architecture.
-
-- Advised clients on digital transformation drawing on background in infrastructure, cloud, DevOps, and developer tooling.
+- Authored technical standards for client delivery teams covering cloud resource naming conventions, deployment practices, automation strategies, and infrastructure as code, drawing on enterprise experience to bring consistency across engagements.
 
 
 ---
@@ -217,7 +209,7 @@ Azure Monitor, Log Analytics, Application Insights, Grafana, Prometheus
 
 
 **Programming & Scripting**</br>
-Go, Java, Python, PowerShell, Bash, React, Keycloakify
+Go, Java, Python, PowerShell, Bash, React
 
 
 **Networking**</br>
@@ -225,7 +217,7 @@ IPsec VPN, ExpressRoute, Routing, L2 switching, Firewall management, Wireless, F
 
 
 **Infrastructure & Virtualization**</br>
-VMware vSphere, vCenter, Hyper-V, KVM, Proxmox VE, Windows Server, Active Directory, Group Policy, DHCP, DNS, IIS, SQL Server, DFS, Linux, Ubuntu
+VMware vSphere, vCenter, Hyper-V, KVM, Proxmox VE, Windows Server, Active Directory, Group Policy, DHCP, DNS, IIS, SQL Server, DFS, Linux, Ubuntu, RHEL, NixOS
 
 
 **Solution Architecture**</br>
